@@ -34,7 +34,7 @@
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
     "jsx-a11y/anchor-is-valid": "off",
-    "import/extensions": "off",
+    "import/extensions": "off"
   },
   "settings": {
     "react": {
@@ -42,6 +42,6 @@
     },
     "import/parsers": {
       "@typescript-eslint/parser": [".ts", ".tsx", ".js"]
-    },
+    }
   }
 }
