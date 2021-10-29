@@ -7,7 +7,7 @@ const AppLayout: React.FC = ({ children }) => {
       <CustomMenu mode="horizontal">
         <CustomMenu.Item>
           <Link href="/">
-            <a>노드버드</a>
+            <a>온프리</a>
           </Link>
         </CustomMenu.Item>
         <CustomMenu.Item>
