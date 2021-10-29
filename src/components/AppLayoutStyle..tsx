@@ -1,6 +1,6 @@
-import styled, { css } from 'styled-components';
-import {Menu} from 'antd';
+import styled, { css } from "styled-components";
+import { Menu } from "antd";
 
-export const CustomMenu = styled(Menu)`
+export const CustomMenu = styled(Menu)``;
 
-`;
+

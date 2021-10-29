@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { CustomMenu } from "./AppLayoutStyle.";
+import { CustomMenu } from "@components/AppLayoutStyle.";
 
 const AppLayout: React.FC = ({ children }) => {
   return (
     <>
-      <CustomMenu mode ="horizontal">
-        <CustomMenu.Item >
+      <CustomMenu mode="horizontal">
+        <CustomMenu.Item>
           <Link href="/">
             <a>노드버드</a>
           </Link>
