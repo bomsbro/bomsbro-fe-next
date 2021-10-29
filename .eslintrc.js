@@ -16,7 +16,6 @@ module.exports = {
     "airbnb-base",
     "airbnb/hooks",
     "plugin:@typescript-eslint/recommended",
-    "prettier/react",
     "plugin:prettier/recommended",
   ],
   rules: {
@@ -26,15 +25,15 @@ module.exports = {
     "react/prop-types": 0,
     "react/jsx-props-no-spreading": 0,
     "prettier/prettier": ["error", { endOfLine: "auto" }],
+    "react/react-in-jsx-scope": 0,
+    "jsx-a11y/anchor-is-valid": 0,
   },
   settings: {
     "import/parsers": {
       "@typescript-eslint/parser": [".ts", ".tsx"],
     },
     "import/resolver": {
-      node: {
-        extensions: [".js", ".jsx", ".ts", ".tsx"],
-      },
+      typescript: {},
     },
     react: {
       version: "detect",

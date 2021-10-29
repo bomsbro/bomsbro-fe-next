@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import AppLayout from "../src/components/AppLayout";
+import AppLayout from "@components/AppLayout";
 // import Head from "next/head";
 // import Image from "next/image";
 // import styles from "../styles/Home.module.css";
