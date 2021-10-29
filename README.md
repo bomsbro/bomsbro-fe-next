@@ -19,4 +19,5 @@
   - react-proxy..?
 
  ## 어떻게 해야할까
-  - webpack, babel, rollup, craco(x)
+  - webpack, babel, rollup
+  - craco는 필요없음
