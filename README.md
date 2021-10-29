@@ -18,3 +18,5 @@
   - axios
   - react-proxy..?
 
+ ## 어떻게 해야할까
+  - webpack, babel, rollup, craco(x)
