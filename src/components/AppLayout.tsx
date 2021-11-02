@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { CustomMenu } from "@components/AppLayoutStyle.";
+import { Input } from "antd";
 
 const AppLayout: React.FC = ({ children }) => {
   return (
@@ -17,8 +18,11 @@ const AppLayout: React.FC = ({ children }) => {
         </CustomMenu.Item>
         <CustomMenu.Item>
           <Link href="/signup">
-            <a>sign up</a>
+            <a>회원가입</a>
           </Link>
+        </CustomMenu.Item>
+        <CustomMenu.Item>
+          <Input.Search enterButton style={{ verticalAlign: "middle" }} />
         </CustomMenu.Item>
       </CustomMenu>
       {children}
